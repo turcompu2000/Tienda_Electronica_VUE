@@ -5,6 +5,7 @@ import EditarProducto from '../components/productos/EditarProducto.vue';
 import NewProducto from '../components/productos/NewProducto.vue';
 import Productos from '../views/Productos';
 
+import NewVenta from '../components/ventas/NewVenta.vue';
 import Ventas from '../views/Ventas';
 
 const routes = [
@@ -32,6 +33,11 @@ const routes = [
     path: '/ventas',
     name: 'Ventas',
     component: Ventas
+  },
+  {
+    path: '/add-venta/',
+    name: 'NewVenta',
+    component: NewVenta
   },
   {
     path: '/about',
