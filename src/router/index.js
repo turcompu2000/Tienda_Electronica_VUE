@@ -9,6 +9,8 @@ import EditarVenta from '../components/ventas/EditarVenta.vue';
 import NewVenta from '../components/ventas/NewVenta.vue';
 import Ventas from '../views/Ventas';
 
+import Clientes from '../views/Clientes';
+
 const routes = [
   {
     path: '/',
@@ -44,6 +46,11 @@ const routes = [
     path: '/editar-venta/:id',
     name: 'EditarVenta',
     component: EditarVenta
+  },
+  {
+    path: '/clientes',
+    name: 'Clientes',
+    component: Clientes
   },
   {
     path: '/about',
