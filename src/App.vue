@@ -5,6 +5,7 @@
     <router-link to="/productos">Productos</router-link> |
     <router-link to="/ventas">Ventas</router-link> |
     <router-link to="/clientes">Clientes</router-link> |
+    <router-link to="/categorias">Categorias</router-link> |
   </nav>
   <router-view/>
 </template>

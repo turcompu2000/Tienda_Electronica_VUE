@@ -13,6 +13,8 @@ import EditarCliente from '../components/clientes/EditarCliente.vue';
 import NewCliente from '../components/clientes/NewCliente.vue';
 import Clientes from '../views/Clientes';
 
+import Categorias from '../views/Categorias';
+
 const routes = [
   {
     path: '/',
@@ -63,6 +65,11 @@ const routes = [
     path: '/editar-cliente/:id',
     name: 'EditarCliente',
     component: EditarCliente
+  },
+  {
+    path: '/categorias',
+    name: 'Categorias',
+    component: Categorias
   },
   {
     path: '/about',
