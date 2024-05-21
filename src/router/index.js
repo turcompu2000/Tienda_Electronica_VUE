@@ -9,6 +9,7 @@ import EditarVenta from '../components/ventas/EditarVenta.vue';
 import NewVenta from '../components/ventas/NewVenta.vue';
 import Ventas from '../views/Ventas';
 
+import NewCliente from '../components/clientes/NewCliente.vue';
 import Clientes from '../views/Clientes';
 
 const routes = [
@@ -51,6 +52,11 @@ const routes = [
     path: '/clientes',
     name: 'Clientes',
     component: Clientes
+  },
+  {
+    path: '/add-cliente/',
+    name: 'NewCliente',
+    component: NewCliente
   },
   {
     path: '/about',
