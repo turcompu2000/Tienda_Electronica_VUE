@@ -17,6 +17,7 @@ import EditarCategoria from '../components/categorias/EditarCategoria.vue';
 import NewCategoria from '../components/categorias/NewCategoria.vue';
 import Categorias from '../views/Categorias';
 
+import NewProveedor from '../components/proveedores/NewProveedor.vue';
 import Proveedores from '../views/Proveedores';
 
 const routes = [
@@ -89,6 +90,11 @@ const routes = [
     path: '/proveedores',
     name: 'Proveedores',
     component: Proveedores
+  },
+  {
+    path: '/add-proveedor/',
+    name: 'NewProveedor',
+    component: NewProveedor
   },
   {
     path: '/about',
