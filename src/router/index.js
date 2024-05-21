@@ -5,6 +5,8 @@ import EditarProducto from '../components/productos/EditarProducto.vue';
 import NewProducto from '../components/productos/NewProducto.vue';
 import Productos from '../views/Productos';
 
+import Ventas from '../views/Ventas';
+
 const routes = [
   {
     path: '/',
@@ -25,6 +27,11 @@ const routes = [
     path: '/editar-producto/:id',
     name: 'EditarProducto',
     component: EditarProducto
+  },
+  {
+    path: '/ventas',
+    name: 'Ventas',
+    component: Ventas
   },
   {
     path: '/about',
