@@ -13,7 +13,8 @@ import EditarCliente from '../components/clientes/EditarCliente.vue';
 import NewCliente from '../components/clientes/NewCliente.vue';
 import Clientes from '../views/Clientes';
 
-import NewCliente from '../components/clientes/NewCliente.vue';
+import EditarCategoria from '../components/categorias/EditarCategoria.vue';
+import NewCategoria from '../components/categorias/NewCategoria.vue';
 import Categorias from '../views/Categorias';
 
 const routes = [
@@ -76,6 +77,11 @@ const routes = [
     path: '/add-categoria/',
     name: 'NewCategoria',
     component: NewCategoria
+  },
+  {
+    path: '/editar-categoria/:id',
+    name: 'EditarCategoria',
+    component: EditarCategoria
   },
   {
     path: '/about',
