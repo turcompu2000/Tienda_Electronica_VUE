@@ -5,6 +5,7 @@ import EditarProducto from '../components/productos/EditarProducto.vue';
 import NewProducto from '../components/productos/NewProducto.vue';
 import Productos from '../views/Productos';
 
+import EditarVenta from '../components/ventas/EditarVenta.vue';
 import NewVenta from '../components/ventas/NewVenta.vue';
 import Ventas from '../views/Ventas';
 
@@ -38,6 +39,11 @@ const routes = [
     path: '/add-venta/',
     name: 'NewVenta',
     component: NewVenta
+  },
+  {
+    path: '/editar-venta/:id',
+    name: 'EditarVenta',
+    component: EditarVenta
   },
   {
     path: '/about',
